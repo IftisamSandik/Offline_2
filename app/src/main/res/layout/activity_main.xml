@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#5F6586"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please login first"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textColor="#202211"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/NameTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:hint="Enter your name:"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:inputType="text"
+        />
+    <EditText
+        android:id="@+id/IdTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your id:"
+        android:layout_marginTop="170dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:inputType="number"
+        android:textSize="20sp"
+        />
+    <EditText
+        android:id="@+id/PasswordTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:hint="enter password:"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:inputType="numberPassword"
+        />
+    <Button
+        android:id="@+id/loginButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:text="Login"
+        android:textColor="#15413D"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        />
+
+
+
+
+
+
+
+</RelativeLayout>
